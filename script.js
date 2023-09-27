@@ -12,7 +12,7 @@ finalValue = finalValue+mainValue;
 arr.push(mainValue);
 }
 let result = document.getElementById("result");
-result.innerText = finalValue;
+result.innerText = parseInt(finalValue);
 return finalValue;
   
   
